@@ -1,6 +1,6 @@
 import cv2 
 
-image = cv2.imread('img.jpg') #fotoğrafı okuyoruz.
+image = cv2.imread('assets/img.jpg') #fotoğrafı okuyoruz.
 
 #opencv'de yakınlaştırma ve uzaklaştırma işlemlerini yeniden boyutlandırarak (resize) ile yaparız.
 yakinlastirilmis = cv2.resize(image, None, fx= 2.0, fy=2.0, interpolation=cv2.INTER_LINEAR )

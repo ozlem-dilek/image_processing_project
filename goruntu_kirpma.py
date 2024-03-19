@@ -1,6 +1,6 @@
 import cv2 
 
-image = cv2.imread('img.jpg')
+image = cv2.imread('assets/img.jpg')
 kirpilmis_image = image[0:200, 0:400]
 
 print(image.shape)
